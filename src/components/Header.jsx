@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 const Header = () => {
   return (
-    <div className='min-h-screen mb-4 bg-cover bg-center flex items-center w-fulll overflow-hidden' style={{backgroundImage: "url('/header_img.png')"}} id='Header'>
+    <div className='min-h-screen mb-4 bg-cover bg-center flex items-center w-fulll overflow-hidden' style={{backgroundImage: "url('header_img.png')"}} id='Header'>
       <Navbar/>
       <motion.div
       initial={{opacity:0, y:100}}
